@@ -1,0 +1,23 @@
+<svg width="172" height="40" viewBox="0 0 172 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fullIconGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="48" y1="0" x2="172" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon -->
+  <rect width="40" height="40" rx="10" fill="url(#fullIconGrad)"/>
+  <path d="M10 20 C10 8 30 8 30 20" stroke="white" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <path d="M27 17 L30 21 L33 17" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M30 20 C30 32 10 32 10 20" stroke="white" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <path d="M13 23 L10 19 L7 23" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M20 16.5 L21.5 19.5 L20 22.5 L18.5 19.5 Z" fill="white" opacity="0.95"/>
+  <path d="M16.5 20 L19.5 18.5 L22.5 20 L19.5 21.5 Z" fill="white" opacity="0.95"/>
+  <!-- Wordmark: "Skill" regular + "Exchange" bold -->
+  <text font-family="'Inter', 'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" fill="#374151" font-weight="500" x="48" y="25">Skill</text>
+  <text font-family="'Inter', 'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" fill="#0F172A" font-weight="700" x="82" y="25">Exchange</text>
+</svg>
