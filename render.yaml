@@ -4,7 +4,7 @@ services:
     runtime: python
     rootDir: backend
     buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate
-    startCommand: gunicorn skill_exchange.wsgi:application --bind 0.0.0.0:$PORT --workers 2 --timeout 120
+    startCommand: python manage.py migrate --noinput && gunicorn skill_exchange.wsgi:application --bind 0.0.0.0:$PORT --workers 2 --timeout 120
     plan: free
     envVars:
       - key: DJANGO_SETTINGS_MODULE
